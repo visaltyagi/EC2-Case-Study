@@ -1,0 +1,22 @@
+#1: Update the machine: 
+sudo apt-get update
+
+#2: Install the Apache2 on Ubuntu: 
+sudo apt-get install apache2 -y
+
+#3: Check the Apache2 Status: 
+sudo systemctl apache2 status
+
+#4: Go to the html directory: 
+cd /var/www/html
+
+#5: To check the files: 
+ls
+
+#6: Add the content to the index.html file: 
+echo "Hello, World" >index.html
+
+#7: Check the index.html content: 
+cat index.html
+
+  
